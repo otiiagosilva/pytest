@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Popup de Cadastro de E-mail</title>
+</head>
+<body>
+    <!-- Conteúdo da sua página principal aqui -->
+
+    <!-- Pop-up de cadastro de e-mail -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup()">&times;</span>
+            <h2>Cadastre-se para receber nossas atualizações por e-mail</h2>
+            <form id="email-form">
+                <input type="email" placeholder="Digite seu e-mail" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript para controlar o pop-up -->
+    <script src="script.js"></script>
+</body>
+</html>
